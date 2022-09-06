@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="130.148">
+    <testcase classname="User can navigate to connected DP chat screen from home screen and able to chat successfully" name="Consumer connected DP chat screen from home screen and able to chat successfully" time="129.894">
+        <system-out><![CDATA[Given Login Consumer application............................................passed
+Given Navigate to Dental Professional and search DP name Click on it........passed
+Given Click on connect option and Click on chat now option..................passed
+Given Type text on chat box and verify chat receive to DP...................passed
+Given Logout application....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

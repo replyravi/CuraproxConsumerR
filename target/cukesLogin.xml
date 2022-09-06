@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="117.194">
+    <testcase classname="Login function for Curaprox Consumer" name="Curaprox Consumer Login" time="45.137">
+        <system-out><![CDATA[Given Select South Africa...................................................passed
+Given Tab Next button.......................................................passed
+Given Click on Sign In......................................................passed
+Then type email and password with curatest+rzsa378@morphos.is and Ringzero123.passed
+Then Click on Login.........................................................passed
+Then Click on My Account....................................................passed
+Then Click on Logout........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login function for Curaprox Consumer" name="Curaprox Consumer Login Slovenia" time="45.874">
+        <system-out><![CDATA[Given Select South Slovenia.................................................passed
+Given Tab Next button Slovenia..............................................passed
+Given Click on Sign In Slovenia.............................................passed
+Then Slovenia type email and password with curatest+rzsa378@morphos.is and Ringzero123.passed
+Then Click on Login Slovenia................................................passed
+Then Click on My Account Slovenia...........................................passed
+Then Click on Logout Slovenia...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login function for Curaprox Consumer" name="Curaprox Consumer Login Netherlands" time="25.917">
+        <failure message="An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal&#10;Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'&#10;System info: host: 'RZ-1LP3LG2', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: ag.curaden.curaprox.consume..., appPackage: ag.curaden.curaprox.consumer, applicationName: Curaprox, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: ag.curaden.curaprox.consume..., appPackage: ag.curaden.curaprox.consumer, applicationName: Curaprox, automationName: uiautomator2, deviceName: Curaproxemulator, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: f12d6230-455c-4365-a8ac-d749c4605094&#10;*** Element info: {Using=-android uiautomator, value=text(&quot;Netherlands&quot;)}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given Select South Netherlands..............................................failed
+Given Tab Next button Netherlands...........................................skipped
+Given Click on Sign In Netherlands..........................................skipped
+Then Netherlands type email and password with curatest+rzsa378@morphos.is and Ringzero123.skipped
+Then Click on Login Netherlands.............................................skipped
+Then Click on My Account Netherlands........................................skipped
+Then Click on Logout Netherlands............................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The process has received SIGINT signal
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'RZ-1LP3LG2', ip: '192.168.1.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: ag.curaden.curaprox.consume..., appPackage: ag.curaden.curaprox.consumer, applicationName: Curaprox, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: ag.curaden.curaprox.consume..., appPackage: ag.curaden.curaprox.consumer, applicationName: Curaprox, automationName: uiautomator2, deviceName: Curaproxemulator, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f12d6230-455c-4365-a8ac-d749c4605094
+*** Element info: {Using=-android uiautomator, value=text("Netherlands")}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at stepDefinationsLogin.Loginstepdefinations.select_south_Netherlands(Loginstepdefinations.java:154)
+	at ✽.Select South Netherlands(file:///C:/Users/Ravi.s/eclipse-workspace/CuraproxConsumerR/src/test/java/features/Login.feature:54)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="102.518">
+    <testcase classname="Sign up with Email for All Country and Consumer Device Android" name="Sign up with Email with South Africa" time="80.204">
+        <system-out><![CDATA[Given Open the curaprox consumer application and  Select the country as South Africa.passed
+And Tab Next button.........................................................passed
+And Click on sign up with email.............................................passed
+Then Type email and password................................................passed
+And Click on sign up button.................................................passed
+And Click on accept terms and conditions....................................passed
+Then Open Gmail and conform the link........................................passed
+And Curaprox app open.......................................................passed
+And Type first name and last name and click next button.....................passed
+And Click on No, I have not been referred by anyone.........................passed
+And Click on next button till profile page open.............................passed
+And Click on my account right side corner in the application................passed
+And Click on logout.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up with Email for All Country and Consumer Device Android" name="Sign up with facebook" time="22.063">
+        <system-out><![CDATA[Given Open the curaprox consumer application and  Select the country as South Africa.passed
+And Tab Next button.........................................................passed
+And Click on sign up with facebook..........................................passed
+And Open facebook application...............................................passed
+Then Type facebook email and password.......................................passed
+Then Close the application..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

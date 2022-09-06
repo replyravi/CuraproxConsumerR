@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="54.857">
+    <testcase classname="Curaprox Continue Your Lesson" name="Curaprox Login with email Id South Africa Location" time="54.602">
+        <system-out><![CDATA[Given Login to Curaprox.....................................................passed
+Given Verify Continue Your Lesson...........................................passed
+Given Navigate to MY CURAPOINTS  get text Complete Educational Content and get text Complete Educational Content Correctly.passed
+Given Log out application...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
