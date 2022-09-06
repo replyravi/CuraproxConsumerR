@@ -30,6 +30,7 @@ public class Loginfunction extends Capab {
     	driver.findElementByAndroidUIAutomator("text(\"Password\")").sendKeys("Ringzero123");
     	System.out.println("curatest+rzsa378@morphos.is");
     	driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
+    	System.out.println("Git push this command");
     	//driver.findElementByAndroidUIAutomator("text(\"LOGIN\")").click();
     	//driver.findElement(By.xpath("//android.view.ViewGroup[9]")).click();
     	driver.findElement(By.xpath ("//android.widget.TextView[@bounds='[470,940][610,1005]']")).click();
