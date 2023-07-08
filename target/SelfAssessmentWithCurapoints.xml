@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="71.231">
+    <testcase classname="Login function for Curaprox Consumer verify selfAssessment successfully and should receive curapoints also" name="verify selfAssessment successfully and should receive curapoints also" time="70.987">
+        <system-out><![CDATA[Given Login to Curaprox Consumer app for verify selfAssessment successfully and should receive curapoints also.passed
+Given Click on Your Curapoints for verify user able to complete selfAssessment then click back.passed
+Given Click on bell Icon for verify user able to receive Curapoints regarding selfAssessment then click back.passed
+Then Logout the application.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

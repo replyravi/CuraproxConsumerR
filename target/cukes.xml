@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="73.321">
+    <testcase classname="Sign up with Email for All Country and Consumer Device Android" name="Sign up with Email with South Africa" time="46.457">
+        <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'&#10;System info: host: 'Pis-MacBook-Air.local', ip: 'fe80:0:0:0:15:ea54:8e4f:d247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/ravi/Downloads/Curap..., appPackage: ag.curaden.curaprox.affiliate, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/ravi/Downloads/Curap..., automationName: UiAutomator2, deviceName: pixel_4, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2148, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 25ad0803-5737-484e-ba2c-6ee7b0807a96&#10;*** Element info: {Using=-android uiautomator, value=text(&quot;Sign up with email&quot;)}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given Open the curaprox consumer application and  Select the country as South Africa.passed
+And Tab Next button.........................................................passed
+And Click on sign up with email.............................................failed
+Then Type email and password................................................skipped
+And Click on sign up button.................................................skipped
+And Click on accept terms and conditions....................................skipped
+Then Open Gmail and conform the link........................................skipped
+And Curaprox app open.......................................................skipped
+And Type first name and last name and click next button.....................skipped
+And Click on No, I have not been referred by anyone.........................skipped
+And Click on next button till profile page open.............................skipped
+And Click on my account right side corner in the application................skipped
+And Click on logout.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'Pis-MacBook-Air.local', ip: 'fe80:0:0:0:15:ea54:8e4f:d247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/ravi/Downloads/Curap..., appPackage: ag.curaden.curaprox.affiliate, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/ravi/Downloads/Curap..., automationName: UiAutomator2, deviceName: pixel_4, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2148, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 25ad0803-5737-484e-ba2c-6ee7b0807a96
+*** Element info: {Using=-android uiautomator, value=text("Sign up with email")}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at stepDefinations.Stepdefination.click_on_register_new_practice(Stepdefination.java:74)
+	at ✽.Click on sign up with email(file:///Users/ravi/Downloads/CuraproxConsumerR/src/test/java/features/Signup.feature:28)
+]]></failure>
+    </testcase>
+    <testcase classname="Sign up with Email for All Country and Consumer Device Android" name="Sign up with facebook" time="26.529">
+        <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'&#10;System info: host: 'Pis-MacBook-Air.local', ip: 'fe80:0:0:0:15:ea54:8e4f:d247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/ravi/Downloads/Curap..., appPackage: ag.curaden.curaprox.affiliate, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/ravi/Downloads/Curap..., automationName: UiAutomator2, deviceName: pixel_4, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2148, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 32b663bc-0730-4bae-847d-8d9f463fc11f&#10;*** Element info: {Using=-android uiautomator, value=text(&quot;Sign up with Facebook&quot;)}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given Open the curaprox consumer application and  Select the country as South Africa.passed
+And Tab Next button.........................................................passed
+And Click on sign up with facebook..........................................failed
+And Open facebook application...............................................skipped
+Then Type facebook email and password.......................................skipped
+Then Close the application..................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'Pis-MacBook-Air.local', ip: 'fe80:0:0:0:15:ea54:8e4f:d247%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/ravi/Downloads/Curap..., appPackage: ag.curaden.curaprox.affiliate, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/ravi/Downloads/Curap..., automationName: UiAutomator2, deviceName: pixel_4, platformName: android, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2148, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 32b663bc-0730-4bae-847d-8d9f463fc11f
+*** Element info: {Using=-android uiautomator, value=text("Sign up with Facebook")}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at stepDefinations.Stepdefination.click_on_sign_up_with_facebook(Stepdefination.java:82)
+	at ✽.Click on sign up with facebook(file:///Users/ravi/Downloads/CuraproxConsumerR/src/test/java/features/Signup.feature:45)
+]]></failure>
+    </testcase>
+</testsuite>

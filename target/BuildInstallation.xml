@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="61.967">
+    <testcase classname="Curaprox Consumer Build Installation" name="Curaprox Consumer Build" time="61.742">
+        <system-out><![CDATA[Given Open Browser..........................................................passed
+Given Type build URL........................................................passed
+Then Click Curaprox Consumer Build Number...................................passed
+Then Instal the build.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

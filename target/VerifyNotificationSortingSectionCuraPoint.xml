@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="65.619">
+    <testcase classname="Login Curaprox Consumer and verify Notification, Sorting, Section and CuraPoint" name="Curaprox Consumer Login verify all function" time="65.353">
+        <system-out><![CDATA[Given Login Curaprox Consumer...............................................passed
+Given Verify Notification Bar Open and click bell Icon verify notification and click back.passed
+Given Navigate to product page and verify sorting of product and click back.passed
+Given Navigate to my account and verify section and sub section screen and click back.passed
+Given Navigate to Cura Point section and verify 250CP received for onboarding process.passed
+]]></system-out>
+    </testcase>
+</testsuite>
